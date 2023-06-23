@@ -3,14 +3,14 @@ const nodemailer = require("nodemailer");
 const transporter = nodemailer.createTransport({
     service: "hotmail",
     auth:{
-        user:"nooriameer12@outlook.com",
-        pass:"thisismymicrosoftacc!"
+        user:"yyy@outlook.com",
+        pass:"***********"
     }
 })
 
 const options = {
-    from: "nooriameer12@outlook.com",
-    to: "noori.techzar@gmail.com",
+    from: "yyy@outlook.com",
+    to: "xxx@gmail.com",
     subject:"Sending email with nodejs",
     text:"Wow that's simple",
     html:"<h1>Hello User</h1>"
